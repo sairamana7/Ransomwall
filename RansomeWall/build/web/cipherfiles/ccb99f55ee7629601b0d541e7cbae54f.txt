@@ -1,0 +1,12 @@
+Secure search techniques over encrypted cloud data allow an authorized user to query data files of interest by submitting
+encrypted query keywords to the cloud server in a privacy-preserving manner. However, in practice, the returned query results may
+be incorrect or incomplete in the dishonest cloud environment. For example, the cloud server may intentionally omit some qualified
+results to save computational resources and communication overhead. Thus, a well-functioning secure query system should provide a
+query results verification mechanism that allows the data user to verify results. In this paper, we design a secure, easily integrated, and
+fine-grained query results verification mechanism, by which, given an encrypted query results set, the query user not only can verify
+the correctness of each data file in the set but also can further check how many or which qualified data files are not returned if the set is
+incomplete before decryption. The verification scheme is loose-coupling to concrete secure search techniques and can be very easily
+integrated into any secure query scheme. We achieve the goal by constructing secure verification object for encrypted cloud data.
+Furthermore, a short signature technique with extremely small storage cost is proposed to guarantee the authenticity of verification
+object and a verification object request technique is presented to allow the query user to securely obtain the desired verification object.
+Performance evaluation shows that the proposed schemes are practical and efficient
